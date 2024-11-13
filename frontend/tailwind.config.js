@@ -3,6 +3,10 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      spacing: {
+        '555': '555px',
+        '600': '600px',
+      },
       colors: {
         primary: "#f0f2f5",
         secondary: "#ff813f",
