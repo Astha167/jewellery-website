@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 /* Basic container styling */
 .max_padd_container {
     padding: 0 2rem;
@@ -116,11 +120,11 @@
   }
   
   /* Section Styling */
-  .max-w-[555px] {
+  .max-w-555 {
     max-width: 555px;
   }
   
-  .h-[600px] {
+  .h-600 {
     height: 600px;
   }
   
@@ -133,12 +137,13 @@
   }
   
   @media (max-width: 768px) {
-    .max-w-[555px] {
-      max-width: 90%;
+    .max-w-555 {
+      max-width: 555px;
     }
-  
-    .h-[600px] {
-      height: auto;
+    
+    .h-600 {
+      height: 600px;
     }
+    
   }
   
